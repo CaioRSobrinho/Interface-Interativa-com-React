@@ -1,0 +1,52 @@
+@import "styles/variables.scss";
+
+#root {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+main {
+    min-height: 100vh;
+    width: 100vw;
+    position: relative; /*posiciona um elemento em relação à sua posição original no fluxo do documento*/
+    display: flex; /*transforma um elemento em um container flexível, organizando seus elementos filhos em uma linha ou coluna*/
+    align-items: center;
+    flex-direction: column;
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        padding: 24px;
+        
+
+        .menu-options {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+
+            a {
+                font-weight: 500;
+                font-size: 16px;
+                cursor: pointer;
+
+                &:hover {
+                    
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes appear {
+    from {
+
+    }
+    to {
+        
+    }
+}
