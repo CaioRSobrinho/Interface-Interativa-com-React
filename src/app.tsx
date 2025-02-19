@@ -11,8 +11,32 @@ function App() {
                     <a href="#">How it works</a>
                     <a href="#">Portfolio</a>
                 </nav>
-                <button className="contact-container">Contact us</button>
+                <button className="contact-container">
+                    <div className='btn-face-white'>
+                        Contact us 
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                    <div className='btn-face-purple'>
+                        Contact us 
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                </button>
             </header>
+            <div className="body-content-container">
+                <h1>Lets grow your social presence</h1>
+            </div>
+            <div className="bubble__target">
+                🎯
+            </div>
+            <div className="bubble__target">
+                🛍️
+            </div>
+            <div className="bubble__target">
+                🚀
+            </div>
+            <div className="bubble__target">
+                🔥
+            </div>
         </main>
     )
 }
